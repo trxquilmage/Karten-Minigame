@@ -10,10 +10,12 @@ stories:
   - action: utter_A13
   - action: utter_A14
   - action: utter_A15
+  - checkpoint: A1_Done
 
 - story: B1
   steps:
-  - intent: greet
+  - checkpoint: A1_Done
+  - intent: wegA
   - action: utter_B11
   - action: utter_B12
   - action: utter_B13
@@ -21,67 +23,133 @@ stories:
   - action: utter_B15
   - action: utter_B16
   - action: utter_B17
+  - checkpoint: B1_Done
 
 - story: B2
   steps:
-  - intent: greet
+  - checkpoint: A1_Done
+  - intent: wegB
   - action: utter_B21
   - action: utter_B22
   - action: utter_B23
   - action: utter_B24
   - action: utter_B25
   - action: utter_B26
+  - checkpoint: B2_Done
 
 - story: C1
   steps:
-  - intent: greet
+  - checkpoint: B1_Done
+  - intent: wegB
   - action: utter_C11
   - action: utter_C12
   - action: utter_C13
   - action: utter_C14
   - action: utter_C15
   - action: utter_C16
+  - checkpoint: C1_Done
+
+- story: C1
+  steps:
+  - checkpoint: C2_Done
+  - intent: wegA
+  - action: utter_C11
+  - action: utter_C12
+  - action: utter_C13
+  - action: utter_C14
+  - action: utter_C15
+  - action: utter_C16
+  - checkpoint: C1_Done
 
 - story: C2
   steps:
-  - intent: greet
+- checkpoint: B1_Done
+  - intent: wegA
   - action: utter_C21
   - action: utter_C22
   - action: utter_C23
   - action: utter_C24
+  - checkpoint: C2_Done
+
+- story: C2
+  steps:
+- checkpoint: B2_Done
+  - intent: wegB
+  - action: utter_C21
+  - action: utter_C22
+  - action: utter_C23
+  - action: utter_C24
+  - checkpoint: C2_Done
 
 - story: C3
   steps:
-  - intent: greet
+  - checkpoint: B2_Done
+  - intent: wegA
   - action: utter_C31
   - action: utter_C32
+  - checkpoint: C3_Done
+
+- story: C3
+  steps:
+  - checkpoint: D2_Done
+  - intent: wegA
+  - action: utter_C31
+  - action: utter_C32
+  - checkpoint: C3_Done
 
 - story: D1
   steps:
-  - intent: greet
+  - checkpoint: C1_Done
+  - intent: wegA
   - action: utter_D11
   - action: utter_D12
   - action: utter_D13
   - action: utter_D14
   - action: utter_D15
+  - checkpoint: D1_Done
 
 - story: D2
   steps:
-  - intent: greet
+  - checkpoint: C2_Done
+  - intent: wegB
   - action: utter_D21
   - action: utter_D22
   - action: utter_D23
   - action: utter_D24
   - action: utter_D25
+  - checkpoint: D2_Done
+
+- story: D2
+  steps:
+  - checkpoint: C1_Done
+  - intent: wegB
+  - action: utter_D21
+  - action: utter_D22
+  - action: utter_D23
+  - action: utter_D24
+  - action: utter_D25
+  - checkpoint: D2_Done
 
 - story: E1
   steps:
-  - intent: greet
+  - checkpoint: D1_Done
+  - intent: wegB
   - action: utter_E11
   - action: utter_E12
+  - checkpoint: E1_Done
+
+- story: E1
+  steps:
+  - checkpoint: D2_Done
+  - intent: wegB
+  - action: utter_E11
+  - action: utter_E12
+  - checkpoint: E1_Done
 
 - story: E2
   steps:
-  - intent: greet
+  - checkpoint: D1_Done
+  - intent: wegA
   - action: utter_E21
   - action: utter_E22
+  - checkpoint: E2_Done
