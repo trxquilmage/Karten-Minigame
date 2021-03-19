@@ -2,29 +2,86 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: A1
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - action: utter_A11
+  - action: utter_A12
+  - action: utter_A13
+  - action: utter_A14
+  - action: utter_A15
 
-- story: sad path 1
+- story: B1
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - action: utter_B11
+  - action: utter_B12
+  - action: utter_B13
+  - action: utter_B14
+  - action: utter_B15
+  - action: utter_B16
+  - action: utter_B17
 
-- story: sad path 2
+- story: B2
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - action: utter_B21
+  - action: utter_B22
+  - action: utter_B23
+  - action: utter_B24
+  - action: utter_B25
+  - action: utter_B26
+
+- story: C1
+  steps:
+  - intent: greet
+  - action: utter_C11
+  - action: utter_C12
+  - action: utter_C13
+  - action: utter_C14
+  - action: utter_C15
+  - action: utter_C16
+
+- story: C2
+  steps:
+  - intent: greet
+  - action: utter_C21
+  - action: utter_C22
+  - action: utter_C23
+  - action: utter_C24
+
+- story: C3
+  steps:
+  - intent: greet
+  - action: utter_C31
+  - action: utter_C32
+
+- story: D1
+  steps:
+  - intent: greet
+  - action: utter_D11
+  - action: utter_D12
+  - action: utter_D13
+  - action: utter_D14
+  - action: utter_D15
+
+- story: D2
+  steps:
+  - intent: greet
+  - action: utter_D21
+  - action: utter_D22
+  - action: utter_D23
+  - action: utter_D24
+  - action: utter_D25
+
+- story: E1
+  steps:
+  - intent: greet
+  - action: utter_E11
+  - action: utter_E12
+
+- story: E2
+  steps:
+  - intent: greet
+  - action: utter_E21
+  - action: utter_E22
