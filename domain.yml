@@ -2,6 +2,8 @@ version: "2.0"
 
 intents:
   - greet
+  - wegA
+  - wegB
 
 responses:
   utter_A11:
