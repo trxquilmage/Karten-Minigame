@@ -12,7 +12,8 @@ nlu:
     - Geh in Richtung Stadt
     - Lauf um den See
     - Geh zur Haupstraße
-    - Geh tiefer in den Wald
+    - Geh tiefer in den Park
+    - Geh zum Park
     - Geh nach Süden
     
 - intent: wegB
