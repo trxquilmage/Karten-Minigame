@@ -1,6 +1,31 @@
 version: "2.0"
 
 nlu:
+
+- intent: wegA
+  examples: |
+    - Geh zum See
+    - Nimm den ersten Weg
+    - Geh nach rechts
+    - rechts
+    - Nimm den breiten Weg
+    - Geh in Richtung Stadt
+    - Lauf um den See
+    - Geh zur Haupstraße
+    - Geh tiefer in den Wald
+    - Geh nach Süden
+    
+- intent: wegB
+  examples: |
+    - Geh zum Ehrenmal
+    - Nimm den zweiten Weg
+    - Geh nach links 
+    - links
+    - Geh in die andere Richtung
+    - Geh Richtung Plänterwald
+    - Geh nach Norden
+    
+    
 - intent: greet
   examples: |
     - hey
