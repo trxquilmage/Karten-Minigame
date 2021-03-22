@@ -1,7 +1,5 @@
 version: "2.0"
-
 nlu:
-
 - intent: wegA
   examples: |
     - Geh zum See
@@ -11,22 +9,24 @@ nlu:
     - Nimm den breiten Weg
     - Geh in Richtung Stadt
     - Lauf um den See
-    - Geh zur Haupstraße
     - Geh tiefer in den Park
     - Geh zum Park
     - Geh nach Süden
-    
+    - nimm den breiten weg
+    - geh nach rechts
 - intent: wegB
   examples: |
     - Geh zum Ehrenmal
+    - geh zur statue
     - Nimm den zweiten Weg
-    - Geh nach links 
+    - Geh nach links
+    - Geh zur Haupstraße
     - links
     - Geh in die andere Richtung
     - Geh Richtung Plänterwald
     - Geh nach Norden
-    
-    
+    - geh zum ehrenmal
+    - geh nach norden
 - intent: greet
   examples: |
     - hey
@@ -42,7 +42,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -56,7 +55,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -65,7 +63,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -75,7 +72,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -92,7 +88,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -109,7 +104,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?

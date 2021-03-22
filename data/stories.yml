@@ -15,7 +15,7 @@ stories:
 - story: B1
   steps:
   - checkpoint: A1_Done
-  - intent: wegA
+  - intent: wegB
   - action: utter_B11
   - action: utter_B12
   - action: utter_B13
@@ -28,7 +28,7 @@ stories:
 - story: B2
   steps:
   - checkpoint: A1_Done
-  - intent: wegB
+  - intent: wegA
   - action: utter_B21
   - action: utter_B22
   - action: utter_B23
@@ -40,7 +40,7 @@ stories:
 - story: C1
   steps:
   - checkpoint: B1_Done
-  - intent: wegB
+  - intent: wegA
   - action: utter_C11
   - action: utter_C12
   - action: utter_C13
@@ -64,7 +64,7 @@ stories:
 - story: C2
   steps:
   - checkpoint: B1_Done
-  - intent: wegA
+  - intent: wegB
   - action: utter_C21
   - action: utter_C22
   - action: utter_C23
@@ -74,7 +74,7 @@ stories:
 - story: C2
   steps:
   - checkpoint: B2_Done
-  - intent: wegB
+  - intent: wegA
   - action: utter_C21
   - action: utter_C22
   - action: utter_C23
@@ -84,10 +84,9 @@ stories:
 - story: C3
   steps:
   - checkpoint: B2_Done
-  - intent: wegA
+  - intent: wegB
   - action: utter_C31
   - action: utter_C32
-  - checkpoint: C3_Done
 
 - story: C3
   steps:
@@ -95,12 +94,22 @@ stories:
   - intent: wegA
   - action: utter_C31
   - action: utter_C32
-  - checkpoint: C3_Done
 
 - story: D1
   steps:
   - checkpoint: C1_Done
-  - intent: wegA
+  - intent: wegB
+  - action: utter_D11
+  - action: utter_D12
+  - action: utter_D13
+  - action: utter_D14
+  - action: utter_D15
+  - checkpoint: D1_Done
+
+- story: D1
+  steps:
+  - checkpoint: C2_Done
+  - intent: wegB
   - action: utter_D11
   - action: utter_D12
   - action: utter_D13
@@ -110,19 +119,8 @@ stories:
 
 - story: D2
   steps:
-  - checkpoint: C2_Done
-  - intent: wegB
-  - action: utter_D21
-  - action: utter_D22
-  - action: utter_D23
-  - action: utter_D24
-  - action: utter_D25
-  - checkpoint: D2_Done
-
-- story: D2
-  steps:
   - checkpoint: C1_Done
-  - intent: wegB
+  - intent: wegA
   - action: utter_D21
   - action: utter_D22
   - action: utter_D23
@@ -136,7 +134,6 @@ stories:
   - intent: wegB
   - action: utter_E11
   - action: utter_E12
-  - checkpoint: E1_Done
 
 - story: E1
   steps:
@@ -144,7 +141,6 @@ stories:
   - intent: wegB
   - action: utter_E11
   - action: utter_E12
-  - checkpoint: E1_Done
 
 - story: E2
   steps:
@@ -152,4 +148,3 @@ stories:
   - intent: wegA
   - action: utter_E21
   - action: utter_E22
-  - checkpoint: E2_Done

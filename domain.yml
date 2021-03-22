@@ -1,109 +1,124 @@
-version: "2.0"
-
-intents:
-  - greet
-  - wegA
-  - wegB
-
-responses:
-  utter_A11:
-  - text: "Ich bin im Treptower Park, wie komme ich jetzt zur S-Bahn Station?"
-  utter_A12:
-  - text: "Soll ich den Weg hier lang? Da ist irgendein See?"  
-  utter_A13:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106440759640154/A_12.png"
-  utter_A14:
-  - text: "Oder lieber hier entlang, ich glaube hier geht's zum Ehrenmal?"
-  utter_A15:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106445528825856/A_13.png"
-
-  utter_B11:
-  - text: "Ok!"
-  utter_B12:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106469734285332/B_11.png"
-  utter_B13:
-  - text: "Bin da, wie komme ich jetzt zur S-Bahn Station?"
-  utter_B14:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106485533835274/B_12.png"
-  utter_B15:
-  - text: "Hier ist gleich ein breiter Weg, soll ich den nehmen?"
-  utter_B16:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106340817371166/B_13.png"
-  utter_B17:
-  - text: "Oder es gibt auch noch einen Weg nach links? ist der besser?"
-
-  utter_B21:
-  - text: "Super, vielen Dank!"
-  utter_B22:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106353572904990/B_21.png"
-  utter_B23:
-  - text: "Okay, ich bin jetzt an diesem Teich.."
-  utter_B24:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106370244476938/B_22.png"
-  utter_B25:
-  - text: "Hier geht es einmal in die Stadt? Ich glaube Richtung Plänterwald? Ansonsten kann ich auch weiter um den See in die andere Richtung gehen."
-  utter_B26:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106397067444224/B_23.png"
-
-  utter_C11:
-  - text: "Bin da, hier ist noch irgendsoeine Statue :)"
-  utter_C12:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106448448061480/C_11.png"
-  utter_C13:
-  - text: "Von hier aus kann man einmal nach links..."
-  utter_C14:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106437249007636/C_12.png"
-  utter_C15:
-  - text: "und nach rechts weitergehen. Welchen Weg soll ich nehmen?"
-  utter_C16:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106467766763551/C_13.png"
-
-  utter_C21:
-  - text: "Bin jetzt da :)"
-  utter_C22:
-  - text: "Okay hier gibt es zwei Wege, der eine führt eher an die Hauptstraße ran und der andere tiefer in den Park. Ansonsten gehen sie aber in die selbe Richtung. Was denkst du?"
-  utter_C23:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106486733537320/C_22.png"
-  utter_C24:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106499157065778/C_23.png"
-
-  utter_C31:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106435164176434/C_31.png"
-  utter_C32:
-  - text: "[Failstate Text] Sorry, ich hab mich verlaufen und jemand anderen nach der Richtung gefragt. Bin jetzt da :/ Sorry aber du bist echt nicht so gut mit Karten, oder?"
-
-  utter_D11:
-  - text: "Okay, hier ist der Parkeingang, bin jetzt an einer großen Straße?"
-  utter_D12:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106421809643520/D_11.png"
-  utter_D13:
-  - text: "Ich kann der Straße entweder nach Süden oder nach Norden folgen. Was denkst du?"
-  utter_D14:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106492161097768/D_12.png"
-  utter_D15:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106474297819186/D_13.png"
-
-  utter_D21:
-  - text: "Hier ist eine große Straße im Park."
-  utter_D22:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106465019625482/D_21.png"
-  utter_D23:
-  - text: "Ich kann der Straße entweder nach Norden oder nach Süden folgen. Was denkst du?"
-  utter_D24:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106492147859476/D_22.png"
-  utter_D25:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106463534972968/D_23.png"
-
-  utter_E11:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106504299151390/E_11.png"
-  utter_E12:
-  - text: "Geschafft! Und sogar rechtzeitig, um die Tram zu bekommen, vielen Dank!!!"
-
-  utter_E21:
-  - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106502897598494/E_21.png"
-  utter_E22:
-  - text: "[Failstate Text] Sorry, ich hab mich verlaufen und jemand anderen nach der Richtung gefragt. Bin jetzt da :/ Sorry aber du bist echt nicht so gut mit Karten, oder?"
-
+version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- wegA
+- greet
+- wegB
+responses:
+  utter_A11:
+  - text: Ich bin im Treptower Park, wie komme ich jetzt zur S-Bahn Station?
+  utter_A12:
+  - text: Soll ich den Weg hier lang? Da ist irgendein See?
+  utter_A13:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106440759640154/A_12.png
+  utter_A14:
+  - text: Oder lieber hier entlang, ich glaube hier geht's zum Ehrenmal?
+  utter_A15:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106445528825856/A_13.png
+  utter_B11:
+  - text: Ok!
+  utter_B12:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106469734285332/B_11.png
+  utter_B13:
+  - text: Bin da, wie komme ich jetzt zur S-Bahn Station?
+  utter_B14:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106485533835274/B_12.png
+  utter_B15:
+  - text: Hier ist gleich ein breiter Weg, soll ich den nehmen?
+  utter_B16:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106340817371166/B_13.png
+  utter_B17:
+  - text: Oder es gibt auch noch einen Weg nach links? ist der besser?
+  utter_B21:
+  - text: Super, vielen Dank!
+  utter_B22:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106353572904990/B_21.png
+  utter_B23:
+  - text: Okay, ich bin jetzt an diesem Teich..
+  utter_B24:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106370244476938/B_22.png
+  utter_B25:
+  - text: Hier geht es einmal in die Stadt? Ich glaube Richtung Plänterwald? Ansonsten kann ich auch weiter um den See in die andere Richtung gehen.
+  utter_B26:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106397067444224/B_23.png
+  utter_C11:
+  - text: Bin da, hier ist noch irgendsoeine Statue :)
+  utter_C12:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106448448061480/C_11.png
+  utter_C13:
+  - text: Von hier aus kann man einmal nach links...
+  utter_C14:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106437249007636/C_12.png
+  utter_C15:
+  - text: und nach rechts weitergehen. Welchen Weg soll ich nehmen?
+  utter_C16:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106467766763551/C_13.png
+  utter_C21:
+  - text: Bin jetzt da :)
+  utter_C22:
+  - text: Okay hier gibt es zwei Wege, der eine führt eher an die Hauptstraße ran und der andere tiefer in den Park. Ansonsten gehen sie aber in die selbe Richtung. Was denkst du?
+  utter_C23:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106486733537320/C_22.png
+  utter_C24:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106499157065778/C_23.png
+  utter_C31:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106435164176434/C_31.png
+  utter_C32:
+  - text: '[Failstate Text] Sorry, ich hab mich verlaufen und jemand anderen nach der Richtung gefragt. Bin jetzt da :/ Sorry aber du bist echt nicht so gut mit Karten, oder?'
+  utter_D11:
+  - text: Okay, hier ist der Parkeingang, bin jetzt an einer großen Straße?
+  utter_D12:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106421809643520/D_11.png
+  utter_D13:
+  - text: Ich kann der Straße entweder nach Süden oder nach Norden folgen. Was denkst du?
+  utter_D14:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106492161097768/D_12.png
+  utter_D15:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106474297819186/D_13.png
+  utter_D21:
+  - text: Hier ist eine große Straße im Park.
+  utter_D22:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106465019625482/D_21.png
+  utter_D23:
+  - text: Ich kann der Straße entweder nach Norden oder nach Süden folgen. Was denkst du?
+  utter_D24:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106492147859476/D_22.png
+  utter_D25:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106463534972968/D_23.png
+  utter_E11:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106504299151390/E_11.png
+  utter_E12:
+  - text: Geschafft! Und sogar rechtzeitig, um die Tram zu bekommen, vielen Dank!!!
+  utter_E21:
+  - text: https://cdn.discordapp.com/attachments/822106201760202805/822106502897598494/E_21.png
+  utter_E22:
+  - text: '[Failstate Text] Sorry, ich hab mich verlaufen und jemand anderen nach der Richtung gefragt. Bin jetzt da :/ Sorry aber du bist echt nicht so gut mit Karten, oder?'
+actions:
+- utter_A11
+- utter_A12
+- utter_A13
+- utter_A14
+- utter_A15
+- utter_B11
+- utter_B12
+- utter_B13
+- utter_B14
+- utter_B15
+- utter_B16
+- utter_B17
+- utter_C11
+- utter_C12
+- utter_C13
+- utter_C14
+- utter_C15
+- utter_C16
+- utter_C21
+- utter_D11
+- utter_D12
+- utter_D13
+- utter_D14
+- utter_D15
+- utter_E11
+- utter_E12
