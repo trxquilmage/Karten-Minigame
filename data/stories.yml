@@ -63,7 +63,7 @@ stories:
 
 - story: C2
   steps:
-- checkpoint: B1_Done
+  - checkpoint: B1_Done
   - intent: wegA
   - action: utter_C21
   - action: utter_C22
@@ -73,7 +73,7 @@ stories:
 
 - story: C2
   steps:
-- checkpoint: B2_Done
+  - checkpoint: B2_Done
   - intent: wegB
   - action: utter_C21
   - action: utter_C22

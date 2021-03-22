@@ -69,7 +69,7 @@ responses:
 
   utter_C31:
   - text: "https://cdn.discordapp.com/attachments/822106201760202805/822106435164176434/C_31.png"
-  utter_C31:
+  utter_C32:
   - text: "[Failstate Text] Sorry, ich hab mich verlaufen und jemand anderen nach der Richtung gefragt. Bin jetzt da :/ Sorry aber du bist echt nicht so gut mit Karten, oder?"
 
   utter_D11:
