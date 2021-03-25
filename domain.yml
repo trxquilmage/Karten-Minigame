@@ -6,6 +6,7 @@ intents:
 - wegA
 - greet
 - wegB
+- ablenkung
 responses:
   utter_A11:
   - text: Ich bin im Treptower Park, wie komme ich jetzt zur S-Bahn Station?
@@ -95,6 +96,10 @@ responses:
   - text: https://cdn.discordapp.com/attachments/822106201760202805/822106502897598494/E_21.png
   utter_E22:
   - text: '[Failstate Text] Sorry, ich hab mich verlaufen und jemand anderen nach der Richtung gefragt. Bin jetzt da :/ Sorry aber du bist echt nicht so gut mit Karten, oder?'
+  utter_ablenkung:
+  - text: sorry, dafür haben wir wirklich gerade keine Zeit, geht das nicht auch später? Wo soll ich jetzt entlanggehen?
+  utter_schon_da:
+  - text: hä, was meinst du? Ich bin doch schon da?
 actions:
 - utter_A11
 - utter_A12
@@ -122,3 +127,5 @@ actions:
 - utter_D15
 - utter_E11
 - utter_E12
+- utter_ablenkung
+- utter_schon_da

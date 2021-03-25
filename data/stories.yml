@@ -87,6 +87,7 @@ stories:
   - intent: wegB
   - action: utter_C31
   - action: utter_C32
+  - checkpoint: angekommen
 
 - story: C3
   steps:
@@ -94,6 +95,7 @@ stories:
   - intent: wegA
   - action: utter_C31
   - action: utter_C32
+  - checkpoint: angekommen
 
 - story: D1
   steps:
@@ -134,6 +136,7 @@ stories:
   - intent: wegB
   - action: utter_E11
   - action: utter_E12
+  - checkpoint: angekommen
 
 - story: E1
   steps:
@@ -141,6 +144,7 @@ stories:
   - intent: wegB
   - action: utter_E11
   - action: utter_E12
+  - checkpoint: angekommen
 
 - story: E2
   steps:
@@ -148,3 +152,74 @@ stories:
   - intent: wegA
   - action: utter_E21
   - action: utter_E22
+  - checkpoint: angekommen
+
+#- story: Ablenkung A1
+#  steps:
+#  - checkpoint: A1_Done
+#  - intent: ablenkung
+#  - action: utter_ablenkung
+#  - checkpoint: A1_Done
+
+#- story: Ablenkung B1
+#  steps:
+#  - checkpoint: B1_Done
+#  - intent: ablenkung
+#  - action: utter_ablenkung
+#  - checkpoint: B1_Done
+
+#- story: Ablenkung B2
+#  steps:
+#  - checkpoint: B2_Done
+#  - intent: ablenkung
+#  - action: utter_ablenkung
+
+#- story: Ablenkung C1
+#  steps:
+#  - checkpoint: C1_Done
+#  - intent: ablenkung
+#  - action: utter_ablenkung
+#  - checkpoint: C1_Done
+
+#- story: Ablenkung C2
+#  steps:
+#  - checkpoint: C2_Done
+#  - intent: ablenkung
+#  - action: utter_ablenkung
+#  - checkpoint: C2_Done
+
+#- story: Ablenkung D1
+#  steps:
+#  - checkpoint: D1_Done
+#  - intent: ablenkung
+#  - action: utter_ablenkung
+#  - checkpoint: D1_Done
+
+#- story: Ablenkung D2
+#  steps:
+#  - checkpoint: D2_Done
+#  - intent: ablenkung
+#  - action: utter_ablenkung
+#  - checkpoint: D2_Done
+
+- story: Schon da
+  steps:
+  - checkpoint: angekommen
+  - intent: wegA
+  - action: utter_schon_da
+
+- story: Schon da 2
+  steps:
+  - checkpoint: angekommen
+  - intent: wegB
+  - action: utter_schon_da
+
+- story: Schon da 3
+  steps:
+  - intent: wegA
+  - action: utter_schon_da
+
+- story: Schon da 4
+  steps:
+  - intent: wegB
+  - action: utter_schon_da
