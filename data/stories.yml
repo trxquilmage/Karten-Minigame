@@ -214,12 +214,12 @@ stories:
   - intent: wegB
   - action: utter_schon_da
 
-- story: Schon da 3
-  steps:
-  - intent: wegA
-  - action: utter_schon_da
+#- story: nach sinnlosen Einwurf muss noch etwas kommen
+#  steps:
+#  - intent: sinnloser_einwurf
+#  - intent: wegA
 
-- story: Schon da 4
-  steps:
-  - intent: wegB
-  - action: utter_schon_da
+#- story: nach sinnlosen Einwurf muss noch etwas kommen
+#  steps:
+#  - intent: sinnloser_einwurf
+#  - intent: wegB

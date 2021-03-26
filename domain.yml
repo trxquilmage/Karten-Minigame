@@ -6,6 +6,7 @@ intents:
 - wegA
 - greet
 - wegB
+- sinnloser_einwurf
 - ablenkung
 responses:
   utter_A11:

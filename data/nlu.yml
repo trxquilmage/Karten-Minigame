@@ -42,11 +42,24 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+- intent: sinnloser_einwurf
+  examples: |
+    - okay
+    - oh, okay cool
+    - nice
+    - mega
+    - oh
+    - achso
+    - aha
+    - ja, warte kurz
+    - warte
+    - wait
 - intent: ablenkung
   examples: |
     - ablenkung
-    - aaaaaaaaa
-    - sinnloser einwurf
-    - unpassende Frage
+    - wer ist julio?
     - wer ist sam?
-
+    - was?
+    - warum?
+    - warte, was?
+    - hä?

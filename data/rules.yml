@@ -1,12 +1,12 @@
 version: "2.0"
 
 #rules:
-#
-#- rule: Say goodbye anytime the user says goodbye
+
+#- rule: sinnloser Einwurf ist immer ein fallback
 #  steps:
-#  - intent: goodbye
-#  - action: utter_goodbye
-#
+#  - intent: sinnloser_einwurf
+#  - action: ///ignore and go on
+
 #- rule: Say 'I am a bot' anytime the user challenges
 #  steps:
 #  - intent: bot_challenge
